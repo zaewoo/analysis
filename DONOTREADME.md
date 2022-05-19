@@ -15,88 +15,21 @@
 ### 의도
 일반적으로 외국으로부터 영화를 수입·배급하고 있는 회사의 구매 직원은 완성되지 않은 영화, 즉 영화의 감독, 배우, 시놉시스, 그리고 시나리오만을 보고 영화를 구매하고 있습니다. 그리고 이 영화의 구매에 대한 위험은 온전히 영화를 수입·배급하고 있는 회사에서 부담해야 합니다. 외국으로부터 영화를 수입·배급하고 있는 회사의 구매 직원은 도박에 가까운 심정으로 영화를 국내로 들여오고 있습니다. 이 밖에도 외국으로부터 영화를 수입·배급하고 있는 회사의 구매 직원은 영화제가 시작하기 전에 수백, 더 나아가 수천 편의 영화를 사전에 확인하고 영화제에 참석하여 아침부터 저녁까지 상영되고 있는 영화를 취사선택해 관람해야 합니다. 이처럼 어려운 환경 속에서 국내 관람객을 위해 고생하는 영화 수입·배급사의 구매 직원들이 보다 효과적으로, 그리고 효율적으로 영화를 선별할 수 있도록 도움을 드리기 위해 진행된 프로젝트입니다. 
 
-하지만 팬데믹 이후 신생 투자배급사, 중소 투자배급사의 위기설이 나오고 있다. 어떤 회사는 인원의 70% 이상을 감축했다는 소문도 들린다. 제작·투자한 영화들이 흥행에 실패했기 때문이다.
-코로나19 백신 보급과 실제 접종이 가능한 시기를 전망할 때, 2025년까지 영화 배급·상영은 팬데믹 이전으로 돌아가기 어려울 것이라는 의견이 나오는 가운데 투자배급사는 더욱 영화 투자, 배급에 신중할 수밖에 없을 것이다.
+추가적으로 영화진흥위원회에서 간행하고 있는 <월간 한국영화>의 '팬데믹 시대, 신생 투자배급사를 점검하다'에서 팬데믹 이후 신생 투자·배급사, 그리고 중소 투자·배급사의 위기설에 대해 언급한 바 있습니다. 그 내용은 이들이 제작·투자한 영화들이 흥행에 실패했다는 내용입니다. 그러므로 투자·배급사는 영화의 투자·배급에 더욱 신중할 수 밖에 없습니다.
 
 ## 분석
 
 ### 데이터
 
 #### 1. IMDb
-**IMDb Dataset Details** Each dataset is contained in a gzipped, tab-separated-values (TSV) formatted file in the UTF-8 character set. The first line in each file contains headers that describe what is in each column. A *‘\N’* is used to denote that a particular field is missing or null for that title/name. The available datasets are as follows: 
-
-**title.akas.tsv.gz: title_akas.tsv**
-
-Contains the following information for titles:
-
-- titleId (string) - a tconst, an alphanumeric unique identifier of the title
-- ordering (integer) – a number to uniquely identify rows for a given titleId
-- title (string) – the localized title
-- region (string) - the region for this version of the title
-- language (string) - the language of the title
-- types (array) - Enumerated set of attributes for this alternative title. One or more of the following: "alternative", "dvd", "festival", "tv", "video", "working", "original", "imdbDisplay". New values may be added in the future without warning
-- attributes (array) - Additional terms to describe this alternative title, not enumerated
-- isOriginalTitle (boolean) – 0: not original title; 1: original title
-
-**title.basics.tsv.gz: title_basics.tsv**
-
-Contains the following information for titles:
-
-- tconst (string) - alphanumeric unique identifier of the title
-- titleType (string) – the type/format of the title (e.g. movie, short, tvseries, tvepisode, video, etc)
-- primaryTitle (string) – the more popular title / the title used by the filmmakers on promotional materials at the point of release
-- originalTitle (string) - original title, in the original language
-- isAdult (boolean) - 0: non-adult title; 1: adult title
-- startYear (YYYY) – represents the release year of a title. In the case of TV Series, it is the series start year
-- endYear (YYYY) – TV Series end year. ‘\N’ for all other title types
-- runtimeMinutes – primary runtime of the title, in minutes
-- genres (string array) – includes up to three genres associated with the title
-
-**title.crew.tsv.gz: title_crew.tsv**
-
-Contains the director and writer information for all the titles in IMDb. Fields include:
-
-- tconst (string) - alphanumeric unique identifier of the title
-- directors (array of nconsts) - director(s) of the given title
-- writers (array of nconsts) – writer(s) of the given title
-
-**title.principals.tsv.gz: title_principals.tsv**
-
-Contains the principal cast/crew for titles
-
-- tconst (string) - alphanumeric unique identifier of the title
-- ordering (integer) – a number to uniquely identify rows for a given titleId
-- nconst (string) - alphanumeric unique identifier of the name/person
-- category (string) - the category of job that person was in
-- job (string) - the specific job title if applicable, else '\N'
-- characters (string) - the name of the character played if applicable, else '\N'
-
-**title.ratings.tsv.gz: title_ratings.tsv**
-
-Contains the IMDb rating and votes information for titles
-
-- tconst (string) - alphanumeric unique identifier of the title
-- averageRating – weighted average of all the individual user ratings
-- numVotes - number of votes the title has received
-
-**name.basics.tsv.gz: name_basics.tsv**
-
-Contains the following information for names:
-
-- nconst (string) - alphanumeric unique identifier of the name/person
-- primaryName (string)– name by which the person is most often credited
-- birthYear – in YYYY format
-- deathYear – in YYYY format if applicable, else '\N'
-- primaryProfession (array of strings)– the top-3 professions of the person
-- knownForTitles (array of tconsts) – titles the person is known for
-
 <div align="Right">
     Page Link: https://www.imdb.com/interfaces/
 </div>
 
 #### 2. KOBIS:KOREA Box-office Information System
-
-### 
+<div align="Right">
+    Page Link: https://www.kobis.or.kr/kobis/business/main/main.do
+</div>
 
 ## 정보
 
