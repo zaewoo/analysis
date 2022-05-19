@@ -17,16 +17,22 @@
 
 추가적으로 영화진흥위원회에서 간행하고 있는 <월간 한국영화>의 '팬데믹 시대, 신생 투자배급사를 점검하다'에서 팬데믹 이후 신생 투자·배급사, 그리고 중소 투자·배급사의 위기설에 대해 언급한 바 있습니다. 그 내용은 이들이 제작·투자한 영화들이 흥행에 실패했다는 내용입니다. 그러므로 투자·배급사는 영화의 투자·배급에 더욱 신중할 수 밖에 없습니다.
 
-## 분석
+## 본
 
 ### 데이터
 
 #### 1. IMDb
+
+Each dataset is contained in a gzipped, tab-separated-values (TSV) formatted file in the UTF-8 character set. The first line in each file contains headers that describe what is in each column. A ‘\N’ is used to denote that a particular field is missing or null for that title/name.
+
 <div align="Right">
     Page Link: https://www.imdb.com/interfaces/
 </div>
 
 #### 2. KOBIS:KOREA Box-office Information System
+
+이는 영화진흥위원회에서 매년 발표하는 한국영화연감(1971~2010)의 통계를 기준으로 정리한 데이터입니다. 한국영화연감은 2011년부터는 통합전산망을 기준으로 일정한 주기로 마감처리하여 산출되는 통계 정보입니다. 이 정보는 통계 마감 주기에 따라 공식통계 수치는 추후 변동될 수 있습니다. 추가적으로 전국 통계 데이터는 2004년 이후부터 배급사의 협조가 가능한 경우에만 부분적으로 집계되어 있습니다.
+
 <div align="Right">
     Page Link: https://www.kobis.or.kr/kobis/business/main/main.do
 </div>
