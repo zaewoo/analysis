@@ -88,5 +88,5 @@ Contains the following information for names:
 - knownForTitles (array of tconsts) – titles the person is known for
 
 <div align="Right">
-    Page Link: [https://www.kaggle.com/datasets/START-UMD/gtd](https://www.imdb.com/interfaces/)
+    Page Link: https://www.kaggle.com/datasets/START-UMD/gtd](https://www.imdb.com/interfaces/
 </div>
