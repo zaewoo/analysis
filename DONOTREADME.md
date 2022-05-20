@@ -51,7 +51,31 @@
 ### 데이터: 내용
 
 #### 1. IMDb
-해당 데이터의 구체적인 내용을 작성해 주세요.
+공식 홈페이지에 있는 데이터에서 데이터의 범주가 '**영화**'인 데이터를 사용하였습니다. 
+
+전체 데이터는 약 61만 개이고, 전체 데이터의 컬럼은 11개입니다.
+
+- tconst: 
+
+- titleType: 
+
+- primaryTitle: 
+
+- originalTitle: 
+
+- isAdult:
+
+- startYear: 
+
+- endYear:
+
+- runtimeMinutes:
+
+- genres:
+
+- averageRating:
+
+- numVotes: number of votes the title has received
 
 #### 2. KOBIS:KOREA Box-office Information System
 해당 데이터의 구체적인 내용을 작성해 주세요.
