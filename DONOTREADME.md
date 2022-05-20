@@ -14,10 +14,9 @@
 </div>
 
 ## 임시 공간
-![picture01 001-removebg-preview](https://user-images.githubusercontent.com/97165359/169484196-1fa27746-d635-4cdb-98aa-b902116aecb8.png)
+![picture01 001-removebg](https://user-images.githubusercontent.com/97165359/169484913-e0d015c5-7e63-4e9a-a2c8-3ef1d38556b8.png)
 
 ## 개요
-
 
 ### 주제: 개봉 예정 영화 관객 수 예측
 이 프로젝트의 주제는 머신러닝 모델을 이용하여 과거에 상영되었던 국내 영화 데이터의 다양한 특성을 학습하고 앞으로 상영이 예정되어 있는 국내 영화의 관객 수를 예측하는 것입니다.
