@@ -20,10 +20,10 @@
 
 ## 개요
 
-### 주제
+### 주제: 개봉 예정 영화 관객 수 예측
 이 프로젝트의 주제는 머신러닝 모델을 이용하여 과거에 상영되었던 국내 영화 데이터의 다양한 특성을 학습하고 앞으로 상영이 예정되어 있는 국내 영화의 관객 수를 예상하는 것입니다.
 
-### 목적
+### 목적: 개봉 예정 외화 관객 수 예측
 이 프로젝트로 외국에 상영되었던, 혹은 외국에서 상영이 예정되어 있는 외국 영화 데이터의 다양한 특성을 입력하고 앞으로 국내에서 이를 개봉하였을 시 예상되는 영화의 관객 수를 예상할 수 있습니다.
 그리고 외국으로부터 영화를 수입 및 배급하고 있는 회사가 이를 활용하여 외국에서 상영되었던, 혹은 외국에서 상영이 예정되어 있는 해외 영화의 수익성을 예상할 수 있습니다.
 
@@ -57,19 +57,27 @@
 #### 1. IMDb
 공식 홈페이지에 있는 데이터에서 데이터의 범주가 '**영화**'인 데이터를 사용하였습니다. 전체 데이터는 약 61만 개이고, 전체 데이터의 컬럼은 11개입니다.
 
-|컬럼|내용|
-|------|---|
-|tconst|alphanumeric unique identifier of the title|
-|titleType|the type/format of the title (e.g. movie, short, tvseries, tvepisode, video, etc)|
-|primaryTitle|the more popular title / the title used by the filmmakers on promotional materials at the point of release|
-|originalTitle|original title, in the original language|
-|isAdult|0: non-adult title; 1: adult title|
-|startYear|represents the release year of a title. In the case of TV Series, it is the series start year|
-|endYear|TV Series end year. ‘\N’ for all other title types|
-|runtimeMinutes|primary runtime of the title, in minutes|
-|genres|includes up to three genres associated with the title|
-|averageRating|weighted average of all the individual user ratings|
-|numVotes|number of votes the title has received|
+- tconst: alphanumeric unique identifier of the title
+
+- titleType: the type/format of the title (e.g. movie, short, tvseries, tvepisode, video, etc)
+
+- primaryTitle: the more popular title / the title used by the filmmakers on promotional materials at the point of release
+
+- originalTitle: original title, in the original language
+
+- isAdult: 0: non-adult title; 1: adult title
+
+- startYear: represents the release year of a title. In the case of TV Series, it is the series start year
+
+- endYear: TV Series end year. ‘\N’ for all other title types
+
+- runtimeMinutes: primary runtime of the title, in minutes
+
+- genres: includes up to three genres associated with the title
+
+- averageRating: weighted average of all the individual user ratings
+
+- numVotes: number of votes the title has received
 
 #### 2. KOBIS:KOREA Box-office Information System
 해당 데이터의 구체적인 내용을 작성해 주세요.
