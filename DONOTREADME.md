@@ -82,6 +82,8 @@
 #### 2. KOBIS:KOREA Box-office Information System
 해당 데이터의 분석 내용을 작성해 주세요.
 
+<br/>
+
 ## 본문: 기계 학습
 
 ### 기계 학습: 의사결정나무
