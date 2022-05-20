@@ -95,25 +95,6 @@
 
 <br/>
 
-## 본문: 기계 학습
-
-### 기계 학습: 의사결정나무
-해당 모델의 결과를 작성해 주세요.
-
-### 기계 학습: 다항 로지스틱 회귀분석
-해당 모델의 결과를 작성해 주세요.
-
-### 심화 학습: 다층 퍼셉트론
-해당 모델의 결과를 작성해 주세요.
-
-<br/>
-
-## 결론
-
-결론에 대해서 작성해 주세요.
-
-<br/>
-
 ## 참고문헌
 
 - Seonghyeon Jeona, Young Sook Sona(2016). Prediction of box office using data mining. The Korean Journal of Applied Statistics (2016), 29(7), 1257–1270
