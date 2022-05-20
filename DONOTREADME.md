@@ -113,4 +113,4 @@
 
 ## 참고문헌
 
-Seonghyeon Jeona · Young Sook Sona,1
+Seonghyeon Jeona, Young Sook Sona(2016). Prediction of box office using data mining. The Korean Journal of Applied Statistics (2016), 29(7), 1257–1270
