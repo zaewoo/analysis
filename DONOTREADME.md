@@ -113,4 +113,4 @@
 
 ## 참고문헌
 
-참고문헌을 작성해 주세요.
+Seonghyeon Jeona · Young Sook Sona,1
