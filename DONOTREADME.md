@@ -55,29 +55,27 @@
 ### 데이터: 내용
 
 #### 1. IMDb
-공식 홈페이지에 있는 데이터에서 데이터의 범주가 '**영화**'인 데이터를 사용하였습니다. 
+공식 홈페이지에 있는 데이터에서 데이터의 범주가 '**영화**'인 데이터를 사용하였습니다. 전체 데이터는 약 61만 개이고, 전체 데이터의 컬럼은 11개입니다.
 
-전체 데이터는 약 61만 개이고, 전체 데이터의 컬럼은 11개입니다.
+- tconst: alphanumeric unique identifier of the title
 
-- tconst: 
+- titleType: the type/format of the title (e.g. movie, short, tvseries, tvepisode, video, etc)
 
-- titleType: 
+- primaryTitle: the more popular title / the title used by the filmmakers on promotional materials at the point of release
 
-- primaryTitle: 
+- originalTitle: original title, in the original language
 
-- originalTitle: 
+- isAdult: 0: non-adult title; 1: adult title
 
-- isAdult:
+- startYear: represents the release year of a title. In the case of TV Series, it is the series start year
 
-- startYear: 
+- endYear: TV Series end year. ‘\N’ for all other title types
 
-- endYear:
+- runtimeMinutes: primary runtime of the title, in minutes
 
-- runtimeMinutes:
+- genres: includes up to three genres associated with the title
 
-- genres:
-
-- averageRating:
+- averageRating: weighted average of all the individual user ratings
 
 - numVotes: number of votes the title has received
 
