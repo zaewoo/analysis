@@ -57,7 +57,7 @@
 #### 1. IMDb
 공식 홈페이지에 있는 데이터에서 데이터의 범주가 '**영화**'인 데이터를 사용하였습니다. 전체 데이터는 약 61만 개이고, 전체 데이터의 컬럼은 11개입니다.
 
-|컬럼|내용|
+|Variable name|Variable description|
 |------|---|
 |tconst|alphanumeric unique identifier of the title|
 |titleType|the type/format of the title (e.g. movie, short, tvseries, tvepisode, video, etc)|
@@ -72,7 +72,23 @@
 |numVotes|number of votes the title has received|
 
 #### 2. KOBIS:KOREA Box-office Information System
-해당 데이터의 구체적인 내용을 작성해 주세요.
+공식 홈페이지에서 '월별 박스오피스 조회 기간'을 설정하여 데이터를 수집하였습니다. 이 데이터는 2004년 01월 01일부터 2022년 05월 18일까지의 데이터를 포함하고 있습니다. 전체 데이터는 약 9만 개이고, 전체 데이터의 컬럼은 12개입니다.
+
+|Variable name|Variable description|
+|------|---|
+|Daudience|Number of audiences on release day|
+|A1audience|Number of audiences after release 1 week|
+|A2audience|Number of audiences after release 2 weeks|
+|Dscreen|Number of screens on release day|
+|A1screen|Number of screens after release 1 week|
+|A2screen|Number of screens after release 2 weeks|
+|Nationality|Nationality(Domestic films, Foreign films)|
+|Grade|Film rating(General, 12+, 15+, 18+)|
+|Month|Release month(January-December)|
+|Season|Release season(Spring, Summer, Autumn, Winter)|
+|Dirscore|Director score|
+|Actscore|Film star score|
+|Distscore|Distributor score|
 
 ### 데이터: 분석
 
