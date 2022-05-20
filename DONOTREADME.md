@@ -1,4 +1,4 @@
-# 프로젝트 기획안
+<h1 align="center">프로젝트 기획안</h1>
 
 <div align="Right">
     작성일자: 2022.05.19
