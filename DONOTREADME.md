@@ -57,27 +57,19 @@
 #### 1. IMDb
 공식 홈페이지에 있는 데이터에서 데이터의 범주가 '**영화**'인 데이터를 사용하였습니다. 전체 데이터는 약 61만 개이고, 전체 데이터의 컬럼은 11개입니다.
 
-- tconst: alphanumeric unique identifier of the title
-
-- titleType: the type/format of the title (e.g. movie, short, tvseries, tvepisode, video, etc)
-
-- primaryTitle: the more popular title / the title used by the filmmakers on promotional materials at the point of release
-
-- originalTitle: original title, in the original language
-
-- isAdult: 0: non-adult title; 1: adult title
-
-- startYear: represents the release year of a title. In the case of TV Series, it is the series start year
-
-- endYear: TV Series end year. ‘\N’ for all other title types
-
-- runtimeMinutes: primary runtime of the title, in minutes
-
-- genres: includes up to three genres associated with the title
-
-- averageRating: weighted average of all the individual user ratings
-
-- numVotes: number of votes the title has received
+|컬럼|내용|
+|------|---|
+|tconst|alphanumeric unique identifier of the title|
+|titleType|the type/format of the title (e.g. movie, short, tvseries, tvepisode, video, etc)|
+|primaryTitle|the more popular title / the title used by the filmmakers on promotional materials at the point of release|
+|originalTitle|original title, in the original language|
+|isAdult|0: non-adult title; 1: adult title|
+|startYear|represents the release year of a title. In the case of TV Series, it is the series start year|
+|endYear|TV Series end year. ‘\N’ for all other title types|
+|runtimeMinutes|primary runtime of the title, in minutes|
+|genres|includes up to three genres associated with the title|
+|averageRating|weighted average of all the individual user ratings|
+|numVotes|number of votes the title has received|
 
 #### 2. KOBIS:KOREA Box-office Information System
 해당 데이터의 구체적인 내용을 작성해 주세요.
