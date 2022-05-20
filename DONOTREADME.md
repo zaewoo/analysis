@@ -14,11 +14,10 @@
 </div>
 
 ## 임시 공간
-전체적인 로직을 한눈에 확인할 수 있는 그림을 이곳에 넣으면 좋겠어요.
-
-![picture01.pdf](https://github.com/zaewoo/analysis/files/8737587/picture01.pdf)
+![picture01 001-removebg-preview](https://user-images.githubusercontent.com/97165359/169484196-1fa27746-d635-4cdb-98aa-b902116aecb8.png)
 
 ## 개요
+
 
 ### 주제: 개봉 예정 영화 관객 수 예측
 이 프로젝트의 주제는 머신러닝 모델을 이용하여 과거에 상영되었던 국내 영화 데이터의 다양한 특성을 학습하고 앞으로 상영이 예정되어 있는 국내 영화의 관객 수를 예측하는 것입니다.
