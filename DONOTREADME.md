@@ -13,9 +13,6 @@
     박재우
 </div>
 
-## 외화 수입·유통 프로세스
-![picture01 001-removebg](https://user-images.githubusercontent.com/97165359/169484913-e0d015c5-7e63-4e9a-a2c8-3ef1d38556b8.png)
-
 ## 개요
 
 ### 주제: 개봉 예정 영화 관객 수 예측
