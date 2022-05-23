@@ -100,9 +100,14 @@
 
 이 프로젝트에서는 영화 관객 수 분류에 의해 영화의 관객 수를 예측해야 하므로 데이터 마이닝에서의 주요 분류 기법에 해당하는 의사결정나무, 다항 로지스틱 회귀분석, 다층 퍼셉트론을 사용하였습니다. 
 
+### 의사결정나무
+의사결정나무는 자료 내에 존재하는 관계 및 규칙 등을 찾아내어 그 의사결정규칙을 나무 구조로 도표화하여 탐색적 절차에 유용할 뿐 아니라 예측 및 분류를 수행할 수 있다는 장점을 가지고 있다 (Kwak과 Rhee, 2016). 의사결정나무모형은 분석의 목적과 자료구조에 따라 적절하 분리기준과 정지규칙을 지정하고 의사결정가지치기와 같은 특징선택을 통해 분류에 가장 필요한 특징들만을 추출함으로써 원자료에 비해 줄어든 자료를 얻을 수 있으며, 분류의 기준이 되기에 기여도가 떨어지는 잡음, 중복자료 그리고 규칙을 제거할 수 있다 (Woosik, 2017).
+
 <br/>
 
 ## 참고문헌
 
-- Seonghyeon Jeona, Young Sook Sona(2016). Prediction of box office using data mining. The Korean Journal of Applied Statistics (2016), 29(7). 1257–1270
-- 최종후, 서두성(1999). 데이터마이닝 의사결정나무의 응용. 통계청 「통계분석연구」 제4권 제1호(99.봄) 61-83
+- Seonghyeon Jeona, Young Sook Sona(2016). Prediction of box office using data mining. The Korean Journal of Applied Statistics (2016), 29(7), 1257–1270.
+- Woosik Lee(2017). A ddep learning analysis of the KOSPI's directions. Journal of the Korean Data & Information Science Society (2017), 28(2), 287-295.
+- Kwak, M. and Rhee, S(2016). Finding factors on employment by adult life cycle using decision tree model. Journal of the Korean Data & Information Science Society, 27, 1537-1545.
+- 최종후, 서두성(1999). 데이터마이닝 의사결정나무의 응용. 통계청 「통계분석연구」 제4권 제1호(99.봄). 61-83
