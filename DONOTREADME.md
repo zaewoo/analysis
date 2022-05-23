@@ -46,6 +46,8 @@
     Page Link: https://www.kobis.or.kr/kobis/business/main/main.do
 </div>
 
+#### 3. Kaggle
+
 ### 데이터: 내용
 
 #### 1. IMDb
@@ -72,42 +74,42 @@
 
 |Variable name|Variable description|
 |------|---|
-|movieCd|Number of audiences on release day|
-|movieNm|Number of audiences after release 1 week|
-|movieNmEn|Number of audiences after release 2 weeks|
-|prdtYear|Number of screens on release day|
-|openDt|Number of screens after release 1 week|
-|showTm|Number of screens after release 2 weeks|
-|prdtStatNm|Nationality(Domestic films, Foreign films)|
-|typeNm|Film rating(General, 12+, 15+, 18+)|
-|nationNm|Release month(January-December)|
-|genres_1|Release season(Spring, Summer, Autumn, Winter)|
-|genres_2|Director score|
-|directorNmEn|Film star score|
-|actor_1|Distributor score|
-|actor_2|Distributor score|
-|actor_3|Distributor score|
-|prod_companyCd|Distributor score|
-|prod_companyNm|Distributor score|
-|prod_companyNmEn|Distributor score|
-|dist_companyCd|Distributor score|
-|dist_companyNm|Distributor score|
-|dist_companyNmEn|Distributor score|
-|imp_companyCd|Distributor score|
-|imp_companyNm|Distributor score|
-|imp_companyNmEn|Distributor score|
-|is_adult|Distributor score|
+|movieCd|영화 고유번호|
+|movieNm|영화 제목|
+|movieNmEn|영화 제목(영문)|
+|prdtYear|영화 제작년도|
+|openDt|영화 개봉일자|
+|showTm|영화 러닝타임|
+|prdtStatNm|영화 제작 상태|
+|typeNm|영화 분류|
+|nationNm|영화 제작 국가|
+|genres_1|영화 장르|
+|genres_2|영화 장르|
+|directorNmEn|영화 감독(영문)|
+|actor_1|영화 배우|
+|actor_2|영화 배우|
+|actor_3|영화 배우|
+|prod_companyCd|영화 제작 회사 고유번호|
+|prod_companyNm|영화 제작 회사 명칭|
+|prod_companyNmEn|영화 제작 회사 명칭(영문)|
+|dist_companyCd|영화 배급 회사 고유번호|
+|dist_companyNm|영화 배급 회사 명칭|
+|dist_companyNmEn|영화 배급 회사 명칭(영문)|
+|imp_companyCd|영화 수입 회사 고유번호|
+|imp_companyNm|영화 수입 회사 명칭|
+|imp_companyNmEn|영화 수입 회사 명칭(영문)|
+|is_adult|영상물 심의 등급|
 
 - Movieview
 
 |Variable name|Variable description|
 |------|---|
-|movieNm|Number of audiences on release day|
-|openDt|Number of audiences after release 1 week|
-|acc_revenue|Number of audiences after release 2 weeks|
-|acc_view|Number of screens on release day|
-|screen_cnt|Number of screens after release 1 week|
-|show_cnt|Number of screens after release 2 weeks|
+|movieNm|영화 제목|
+|openDt|영화 개봉일자|
+|acc_revenue|영화 매출액|
+|acc_view|영화 관객 수|
+|screen_cnt|영화 상영관 수|
+|show_cnt|영화 상영 횟수|
 
 - Movieawards
 
