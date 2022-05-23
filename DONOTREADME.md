@@ -131,11 +131,11 @@
 |isTitle|영화제 수상작 구분|
 |const|영화제 수상자·수상작 고유 번호|
 |notes|기타|
-|~~occurrence~~|?|
-|~~winAnnouncementTime~~|?|
-|~~isPrimary~~|?|
-|~~isSecondary~~|?|
-|~~isCompany~~|?|
+|~~occurrence~~|-|
+|~~winAnnouncementTime~~|-|
+|~~isPrimary~~|-|
+|~~isSecondary~~|-|
+|~~isCompany~~|-|
 
 ### 데이터: 분석
 
