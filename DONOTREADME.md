@@ -68,6 +68,53 @@
 #### 2. KOBIS:KOREA Box-office Information System
 공식 홈페이지에서 **월별 박스오피스 조회 기간**을 설정하여 데이터를 수집하였습니다. 이 데이터는 2004년 01월 01일부터 2022년 05월 18일까지의 데이터를 포함하고 있습니다. 전체 데이터는 약 9만 개이고, 전체 데이터의 컬럼은 12개입니다.
 
+#### Moviedetails
+|Variable name|Variable description|
+|------|---|
+|movieCd|Number of audiences on release day|
+|movieNm|Number of audiences after release 1 week|
+|movieNmEn|Number of audiences after release 2 weeks|
+|prdtYear|Number of screens on release day|
+|openDt|Number of screens after release 1 week|
+|showTm|Number of screens after release 2 weeks|
+|prdtStatNm|Nationality(Domestic films, Foreign films)|
+|typeNm|Film rating(General, 12+, 15+, 18+)|
+|nationNm|Release month(January-December)|
+|genres_1|Release season(Spring, Summer, Autumn, Winter)|
+|genres_2|Director score|
+|directorNmEn|Film star score|
+|actor_1|Distributor score|
+|actor_2|Distributor score|
+|actor_3|Distributor score|
+|prod_companyCd|Distributor score|
+|prod_companyNm|Distributor score|
+|prod_companyNmEn|Distributor score|
+|dist_companyCd|Distributor score|
+|dist_companyNm|Distributor score|
+|dist_companyNmEn|Distributor score|
+|imp_companyCd|Distributor score|
+|imp_companyNm|Distributor score|
+|imp_companyNmEn|Distributor score|
+|is_adult|Distributor score|
+
+#### Movieview
+|Variable name|Variable description|
+|------|---|
+|Daudience|Number of audiences on release day|
+|A1audience|Number of audiences after release 1 week|
+|A2audience|Number of audiences after release 2 weeks|
+|Dscreen|Number of screens on release day|
+|A1screen|Number of screens after release 1 week|
+|A2screen|Number of screens after release 2 weeks|
+|Nationality|Nationality(Domestic films, Foreign films)|
+|Grade|Film rating(General, 12+, 15+, 18+)|
+|Month|Release month(January-December)|
+|Season|Release season(Spring, Summer, Autumn, Winter)|
+|Dirscore|Director score|
+|Actscore|Film star score|
+|Distscore|Distributor score|
+
+#### Movieawards
 |Variable name|Variable description|
 |------|---|
 |Daudience|Number of audiences on release day|
