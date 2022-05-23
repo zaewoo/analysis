@@ -112,11 +112,6 @@
 #### 심화 학습: 다층 퍼셉트론
 다층 퍼셉트론은 입력층과 한 개 이상의 은닉층, 출력층으로 이루어지며 각 층 간에는 연결강도가 존재한다. 다층 퍼셉트론에서의 학습은 바로 이 연결강도의 변화를 통하여 오류에너지를 줄이는 방법이다. 오류에너지를 출력층에서 입력층 쪽으로 연결강도를 수정하게 된다. 이를 위하여 오류역전파 알고리즘을 이용하여 학습시키게 된다.
 
-## 개인 별 프로젝트 일정표
-- 박덕용
-- 한선아
-- [박재우](https://github.com/zaewoo/project/blob/master/SCHEDULE.md)
-
 ## 참고문헌
 - Seonghyeon Jeona, Young Sook Sona(2016). Prediction of box office using data mining. The Korean Journal of Applied Statistics (2016), 29(7), 1257–1270.
 - Woosik Lee(2017). A ddep learning analysis of the KOSPI's directions. Journal of the Korean Data & Information Science Society (2017), 28(2), 287-295.
