@@ -70,8 +70,7 @@
 #### 2. KOBIS:KOREA Box-office Information System
 공식 홈페이지에서 **월별 박스오피스 조회 기간**을 설정하여 데이터를 수집하였습니다. 이 데이터는 2004년 01월 01일부터 2022년 05월 18일까지의 데이터를 포함하고 있습니다. 전체 데이터는 약 2만 개이고, 전체 데이터의 컬럼은 25개입니다.
 
-- Moviedetails
-
+#### Moviedetails
 |Variable name|Variable description|
 |-----|-----|
 |movieCd|영화 고유번호|
@@ -100,8 +99,7 @@
 |imp_companyNmEn|영화 수입 회사 명칭(영문)|
 |is_adult|영상물 심의 등급|
 
-- Movieview
-
+#### Movieview
 |Variable name|Variable description|
 |------|---|
 |movieNm|영화 제목|
@@ -111,8 +109,7 @@
 |screen_cnt|영화 상영관 수|
 |show_cnt|영화 상영 횟수|
 
-- Movieawards
-
+#### Movieawards
 |Variable name|Variable description|
 |------|---|
 |eventId|영화제 고유 아이디|
