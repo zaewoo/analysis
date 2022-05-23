@@ -49,7 +49,7 @@
 ### 데이터: 내용
 
 #### 1. IMDb
-공식 홈페이지에 있는 데이터에서 데이터의 범주가 **영화**인 데이터를 사용하였습니다. 전체 데이터는 약 61만 개이고, 전체 데이터의 컬럼은 11개입니다.
+공식 홈페이지에 있는 데이터에서 데이터의 범주가 **영화**인 데이터를 사용하였습니다. 이 데이터는 1896년 01월 01일부터 전체 데이터는 약 61만 개이고, 전체 데이터의 컬럼은 11개입니다.
 
 |Variable name|Variable description|
 |------|---|
@@ -66,7 +66,7 @@
 |numVotes|number of votes the title has received|
 
 #### 2. KOBIS:KOREA Box-office Information System
-공식 홈페이지에서 **월별 박스오피스 조회 기간**을 설정하여 데이터를 수집하였습니다. 이 데이터는 2004년 01월 01일부터 2022년 05월 18일까지의 데이터를 포함하고 있습니다. 전체 데이터는 약 9만 개이고, 전체 데이터의 컬럼은 12개입니다.
+공식 홈페이지에서 **월별 박스오피스 조회 기간**을 설정하여 데이터를 수집하였습니다. 이 데이터는 2004년 01월 01일부터 2022년 05월 18일까지의 데이터를 포함하고 있습니다. 전체 데이터는 약 2만 개이고, 전체 데이터의 컬럼은 25개입니다.
 
 - Moviedetails
 
@@ -113,27 +113,27 @@
 
 |Variable name|Variable description|
 |------|---|
-|eventId|Number of audiences on release day|
-|eventName|Number of audiences after release 1 week|
-|awardName|Number of audiences after release 2 weeks|
-|year|Number of screens on release day|
-|occurrence|Number of screens after release 1 week|
-|winAnnouncementTime|Number of screens after release 2 weeks|
-|categoryName|Distributor score|
-|nomeneeNote|Nationality(Domestic films, Foreign films)|
-|name|Film rating(General, 12+, 15+, 18+)|
-|originalName|Release month(January-December)|
-|songNames|Release season(Spring, Summer, Autumn, Winter)|
-|episodeNames|Director score|
-|characterNames|Film star score|
-|isWinner|Distributor score|
-|isPrimary|Distributor score|
-|isSecondary|Distributor score|
-|isPerson|Distributor score|
-|isTitle|Distributor score|
-|isCompany|Distributor score|
-|const|Distributor score|
-|notes|Distributor score|
+|eventId|영화제 및 시상식 고유 아이디|
+|eventName|영화제 및 시상식 명|
+|awardName|수상 내역|
+|year|영화제 및 시상식 개최년도|
+|occurrence|?|
+|winAnnouncementTime|?|
+|categoryName|세부 수상 내역|
+|nomeneeNote|노미네이트 수상자 구분|
+|name|수상자, 혹은 수상작의 이름|
+|originalName|영화 및 시리즈 이름|
+|songNames|음악 이름|
+|episodeNames|시리즈 에피소드 명|
+|characterNames|영화 및 시리즈 내 등장인물 명|
+|isWinner|수상 여부(0:False, 1:True)|
+|isPrimary|?|
+|isSecondary|?|
+|isPerson|수상자 구분(0:False, 1:True)|
+|isTitle|수상작 구분(0:False, 1:True)|
+|isCompany|수|
+|const|수상자, 혹은 수상작의 고유 번호|
+|notes|기타|
 
 ### 데이터: 분석
 
