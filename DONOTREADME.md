@@ -72,8 +72,8 @@
 
 - Moviedetails
 
-|Variable name|Variable description|
-|------|---|
+|Variable name|Variable description|Variable name|Variable description|Variable name|Variable description|
+|------|---|------|---|------|---|
 |movieCd|영화 고유번호|
 |movieNm|영화 제목|
 |movieNmEn|영화 제목(영문)|
