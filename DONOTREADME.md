@@ -153,25 +153,33 @@
 ### 기계 학습
 
 #### 1. 기계 학습: 의사결정나무
-의사결정나무 프로시져는 나무 기반의 분류 모형을 작성합니다. 독립(예측자) 변수값을 기반으로 종속(대상) 변수값을 예측하거나 케이스를 집단으로 분류합니다. 이 프로시져에서는 탐색 및 확인 분류 분석을 위하 검증 도구를 제공합니다.
+> 의사결정나무 알고리즘은 의사결정 규칙을 도표화하여 관심대상이 되는 집단을 몇 개의 소집단으로 분류하거나 예측을 수행하는 방법으로서 고객세분화, 고객 분류, 문제 예측 등의 여러 분야에서 유용하게 활용되고 있다 (조광현, 박희창, 2011). [8]
 
-의사결정나무는 자료 내에 존재하는 관계 및 규칙 등을 찾아내어 그 의사결정규칙을 나무 구조로 도표화하여 탐색적 절차에 유용할 뿐 아니라 예측 및 분류를 수행할 수 있다는 장점을 가지고 있다 (Kwak과 Rhee, 2016). 의사결정나무모형은 분석의 목적과 자료구조에 따라 적절하 분리기준과 정지규칙을 지정하고 의사결정가지치기와 같은 특징선택을 통해 분류에 가장 필요한 특징들만을 추출함으로써 원자료에 비해 줄어든 자료를 얻을 수 있으며, 분류의 기준이 되기에 기여도가 떨어지는 잡음, 중복자료 그리고 규칙을 제거할 수 있다 (Lee, 2017).
+> 의사결정나무모형은 분석의 목적과 자료구조에 따라 적절한 분리기준과 정지규칙을 지정하고 의사결정가지치기와 같은 특징선택을 통해 분류에 가장 필요한 특징들만을 추출함으로써 원자료에 비해 줄어든 자료를 얻을 수 있으며, 분류의 기준이 되기에 기여도가 떨어지는 잡음, 중복자료 그리고 규칙을 제거할 수 있다 (Woosik Lee, 2017). [2]
 
 #### 2. 기계 학습: 다항 로지스틱 회귀분석
-다항 로지스틱 회귀분석은 예측자 변수 세트의 값에 따라 개체를 분류할 때 유용합니다. 다항 로지스틱 회귀분석으 로지스틱 회귀분석과 유사하지만 종속변수가 두 개의 범주로 제한되지 않으므로 로지스틱 회귀분석보다 일반적으로 사용할 수 있습니다. 
-
-다항 로지스틱 회귀분석은 확률선택모형의 구체화된 모형으로 3개 이상의 대안 중 하나를 선택해야 하는 상황에서 'A'가 대안 'B'를 선택 할 확률을 분석한다. 기준대안에 대한 선택대안의 승산이 없는 다른 대안에 대해 독립적이라는 것은 다항 로지스틱 회귀분석의 기본 가정이며, 이러한 특성으로 인해 설문조사에서 개인들의 여러 가지 특성과 이들이 하는 선택들을 기록하고 분석해야 하는 사회과학분야에서 일반적으로 활용된다 (Lee, 2016).
+> 다항 로짓모형은 확률선택모형의 구체화된 모형으로 3개 이상의 대안 중 하나를 선택해야 하는 상황에서 개인 'A'가 대안 'B'를 선택 할 확률을 분석한다. 기준대안에 대한 선택대안의 승산이 없는 다른 대안에 대해 독립적이라는 것은 다항 로짓모형의 기본 가정이며, 이러한 특성으로 인해 설문조사에서 개인들의 여러 가지 특성과 이들이 하는 선택들을 기록하고 분석해야 하는 사회과학분야에서 일반적으로 활용된다[44]. [4]
 
 ### 심화 학습
 
 #### 1. 심화 학습: 다층 퍼셉트론
-다층 퍼셉트론은 입력층과 한 개 이상의 은닉층, 출력층으로 이루어지며 각 층 간에는 연결 강도가 존재합니다. 다층 퍼셉트론에서의 학습은 바로 이 연결 강도의 변화를 통하여 오류 에너지를 줄이는 방법입니다. 오류 에너지를 출력층에서 입력층으로 연결강도를 수정하게 된다. 이를 위하여 오류역전파 알고리즘을 이용하여 학습시키게 된다.
+> 신경망 모형은 매우 유연한 비선형 모형으로서 예측 변수들을 결합하여 각 은닉 마디에 전달하고 은닉 마디의 결합을 출력 마디에 전달함으로써 목표 변수의 범주를 분류하는 분류 모형입니다. 다층 퍼셉트론 신경망 모형의 구조는 예측 변수들로 구성되는 입력층, 은닉 마디들로 구성되는 은닉층, 그리고 목표 변수의 범주들로 구성되는 출력층으로 이루어져 있습니다 (Lee, 2016).
 
 ## 참고문헌
-- Seonghyeon Jeona, Young Sook Sona(2016). Prediction of box office using data mining. The Korean Journal of Applied Statistics (2016), 29(7), 1257–1270.
-- Woosik Lee(2017). A ddep learning analysis of the KOSPI's directions. Journal of the Korean Data & Information Science Society (2017), 28(2), 287-295.
-- Kwak, M. and Rhee, S(2016). Finding factors on employment by adult life cycle using decision tree model. Journal of the Korean Data & Information Science Society, 27, 1537-1545.
-- Mu-Seon Lee(2016). Analysis on the Factors Affecting Housing Tenure of Single-Person Households of Young Generation Employing the Multinomial Logit Model (2016). Journal of the Korean Academia-Industrial cooperation Society Vol. 17, No. 6 pp. 469-481.
-- 최종후, 서두성(1999). 데이터마이닝 의사결정나무의 응용. 통계청 「통계분석연구」 제4권 제1호(99.봄). 61-83.
-- 이용규, 고형일, 이일병(2014). 객체의 분류를 위한 효율적인 다층 퍼셉트론의 설계 및 구조에 관한 연구. 2014년 추계학습발표대회 논문집 제21권 제2호 (2014.11). 803-805.
-- 왕빈신, 전범수(2016). 한국 개봉 미국 제외 외국 영화 흥행 결정 요인. The Journal of the Korea Contents Association Vol. 16, Issue. 2 pp. 96-105.
+[1] Seonghyeon Jeona, Young Sook Sona(2016). Prediction of box office using data mining. The Korean Journal of Applied Statistics (2016), 29(7), 1257–1270.
+
+[2] Woosik Lee(2017). A deep learning analysis of the KOSPI's directions. Journal of the Korean Data & Information Science Society (2017), 28(2), 287-295.
+
+[3] Kwak, M. and Rhee, S(2016). Finding factors on employment by adult life cycle using decision tree model. Journal of the Korean Data & Information Science Society, 27, 1537-1545.
+
+[4] Mu-Seon Lee(2016). Analysis on the Factors Affecting Housing Tenure of Single-Person Households of Young Generation Employing the Multinomial Logit Model. Journal of the Korean Academia-Industrial cooperation Society Vol 17. No.6. pp.469-481.
+
+[5] Y.Choi, Y.K.Kang, Analysis on the Preference against the Residential-building Forms in Multi-familiy Attached House Employing The Multinomial Logit Model, Journal of Architectual Institute of Korea, Vol 24. No.12. pp.57-65, 2008.
+
+[6] 최종후, 서두성(1999). 데이터마이닝 의사결정나무의 응용. 통계청 「통계분석연구」 제4권 제1호(99.봄). 61-83.
+
+[7] 이용규, 고형일, 이일병(2014). 객체의 분류를 위한 효율적인 다층 퍼셉트론의 설계 및 구조에 관한 연구. 2014년 추계학습발표대회 논문집 제21권 제2호 (2014.11). 803-805.
+
+[8] 왕빈신, 전범수(2016). 한국 개봉 미국 제외 외국 영화 흥행 결정 요인. The Journal of the Korea Contents Association Vol 16. Issue 2. pp.96-105.
+
+[8] 조광현, 박희창(2011). 매개 변수를 이용한 의사결정나무 생성에 관한 연구. Journal of the Korean Data & Information Science Society, 22(4), 671-678.
