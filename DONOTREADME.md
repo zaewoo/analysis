@@ -115,26 +115,26 @@
 
 |Variable name|Variable description|
 |------|---|
-|eventId|영화제 및 시상식 고유 아이디|
-|eventName|영화제 및 시상식 명|
-|awardName|수상 내역|
-|year|영화제 및 시상식 개최년도|
+|eventId|영화제 고유 아이디|
+|eventName|영화제 명칭|
+|awardName|영화제 수상 부문|
+|year|영화제 개최년도|
 |occurrence|?|
 |winAnnouncementTime|?|
-|categoryName|세부 수상 내역|
-|nomeneeNote|노미네이트 수상자 구분|
-|name|수상자, 혹은 수상작의 이름|
-|originalName|영화 및 시리즈 이름|
-|songNames|음악 이름|
-|episodeNames|시리즈 에피소드 명|
-|characterNames|영화 및 시리즈 내 등장인물 명|
-|isWinner|수상 여부(0:False, 1:True)|
+|categoryName|영화제 수상 내역|
+|nomeneeNote|영화제 노미네이트 구분|
+|name|영화제 수상자·수상작 이름|
+|originalName|영화·드라마 명칭|
+|songNames|음악 명칭|
+|episodeNames|시리즈 에피소드 제목|
+|characterNames|영화·드라마 내 등장인물 이름|
+|isWinner|영화제 수상 여부|
 |isPrimary|?|
 |isSecondary|?|
-|isPerson|수상자 구분(0:False, 1:True)|
-|isTitle|수상작 구분(0:False, 1:True)|
-|isCompany|수|
-|const|수상자, 혹은 수상작의 고유 번호|
+|isPerson|영화제 수상자 구분|
+|isTitle|영화제 수상작 구분|
+|isCompany|?|
+|const|영화제 수상자·수상작 고유 번호|
 |notes|기타|
 
 ### 데이터: 분석
