@@ -73,7 +73,7 @@
 - Moviedetails
 
 |Dataset|Variable name|Variable description|Dataset|Variable name|Variable description|Dataset|Variable name|Variable description|
-|------|------|---|------|------|---|------|------|---|
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |MovieDetails|movieCd|영화 고유번호|MovieAwards|eventId|영화제 고유 아이디|
 ||movieNm|영화 제목||eventName|영화제 명칭|
 ||movieNmEn|영화 제목(영문)|
