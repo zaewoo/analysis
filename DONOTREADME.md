@@ -109,13 +109,6 @@
 |screen_cnt|Number of screens after release 1 week|
 |show_cnt|Number of screens after release 2 weeks|
 
-Index(['eventId', 'eventName', 'awardName', 'year', 'occurrence',
-       'winAnnouncementTime', 'categoryName', 'nomeneeNote', 'name',
-       'originalName', 'songNames', 'episodeNames', 'characterNames',
-       'isWinner', 'isPrimary', 'isSecondary', 'isPerson', 'isTitle',
-       'isCompany', 'const', 'notes'],
-      dtype='object')
-
 - Movieawards
 
 |Variable name|Variable description|
