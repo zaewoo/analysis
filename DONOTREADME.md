@@ -68,7 +68,8 @@
 #### 2. KOBIS:KOREA Box-office Information System
 공식 홈페이지에서 **월별 박스오피스 조회 기간**을 설정하여 데이터를 수집하였습니다. 이 데이터는 2004년 01월 01일부터 2022년 05월 18일까지의 데이터를 포함하고 있습니다. 전체 데이터는 약 9만 개이고, 전체 데이터의 컬럼은 12개입니다.
 
-#### Moviedetails
+- Moviedetails
+
 |Variable name|Variable description|
 |------|---|
 |movieCd|Number of audiences on release day|
@@ -97,39 +98,49 @@
 |imp_companyNmEn|Distributor score|
 |is_adult|Distributor score|
 
-#### Movieview
-|Variable name|Variable description|
-|------|---|
-|Daudience|Number of audiences on release day|
-|A1audience|Number of audiences after release 1 week|
-|A2audience|Number of audiences after release 2 weeks|
-|Dscreen|Number of screens on release day|
-|A1screen|Number of screens after release 1 week|
-|A2screen|Number of screens after release 2 weeks|
-|Nationality|Nationality(Domestic films, Foreign films)|
-|Grade|Film rating(General, 12+, 15+, 18+)|
-|Month|Release month(January-December)|
-|Season|Release season(Spring, Summer, Autumn, Winter)|
-|Dirscore|Director score|
-|Actscore|Film star score|
-|Distscore|Distributor score|
+- Movieview
 
-#### Movieawards
 |Variable name|Variable description|
 |------|---|
-|Daudience|Number of audiences on release day|
-|A1audience|Number of audiences after release 1 week|
-|A2audience|Number of audiences after release 2 weeks|
-|Dscreen|Number of screens on release day|
-|A1screen|Number of screens after release 1 week|
-|A2screen|Number of screens after release 2 weeks|
-|Nationality|Nationality(Domestic films, Foreign films)|
-|Grade|Film rating(General, 12+, 15+, 18+)|
-|Month|Release month(January-December)|
-|Season|Release season(Spring, Summer, Autumn, Winter)|
-|Dirscore|Director score|
-|Actscore|Film star score|
-|Distscore|Distributor score|
+|movieNm|Number of audiences on release day|
+|openDt|Number of audiences after release 1 week|
+|acc_revenue|Number of audiences after release 2 weeks|
+|acc_view|Number of screens on release day|
+|screen_cnt|Number of screens after release 1 week|
+|show_cnt|Number of screens after release 2 weeks|
+
+Index(['eventId', 'eventName', 'awardName', 'year', 'occurrence',
+       'winAnnouncementTime', 'categoryName', 'nomeneeNote', 'name',
+       'originalName', 'songNames', 'episodeNames', 'characterNames',
+       'isWinner', 'isPrimary', 'isSecondary', 'isPerson', 'isTitle',
+       'isCompany', 'const', 'notes'],
+      dtype='object')
+
+- Movieawards
+
+|Variable name|Variable description|
+|------|---|
+|eventId|Number of audiences on release day|
+|eventName|Number of audiences after release 1 week|
+|awardName|Number of audiences after release 2 weeks|
+|year|Number of screens on release day|
+|occurrence|Number of screens after release 1 week|
+|winAnnouncementTime|Number of screens after release 2 weeks|
+|categoryName|Distributor score|
+|nomeneeNote|Nationality(Domestic films, Foreign films)|
+|name|Film rating(General, 12+, 15+, 18+)|
+|originalName|Release month(January-December)|
+|songNames|Release season(Spring, Summer, Autumn, Winter)|
+|episodeNames|Director score|
+|characterNames|Film star score|
+|isWinner|Distributor score|
+|isPrimary|Distributor score|
+|isSecondary|Distributor score|
+|isPerson|Distributor score|
+|isTitle|Distributor score|
+|isCompany|Distributor score|
+|const|Distributor score|
+|notes|Distributor score|
 
 ### 데이터: 분석
 
