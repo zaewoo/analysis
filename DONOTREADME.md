@@ -72,33 +72,33 @@
 
 - Moviedetails
 
-|Variable name|Variable description|Variable name|Variable description|Variable name|Variable description|
-|------|---|------|---|------|---|
-|movieCd|영화 고유번호|
-|movieNm|영화 제목|
-|movieNmEn|영화 제목(영문)|
-|prdtYear|영화 제작년도|
-|openDt|영화 개봉일자|
-|showTm|영화 러닝타임|
-|prdtStatNm|영화 제작 상태|
-|typeNm|영화 분류|
-|nationNm|영화 제작 국가|
-|genres_1|영화 장르|
-|genres_2|영화 장르|
-|directorNmEn|영화 감독(영문)|
-|actor_1|영화 배우|
-|actor_2|영화 배우|
-|actor_3|영화 배우|
-|prod_companyCd|영화 제작 회사 고유번호|
-|prod_companyNm|영화 제작 회사 명칭|
-|prod_companyNmEn|영화 제작 회사 명칭(영문)|
-|dist_companyCd|영화 배급 회사 고유번호|
-|dist_companyNm|영화 배급 회사 명칭|
-|dist_companyNmEn|영화 배급 회사 명칭(영문)|
-|imp_companyCd|영화 수입 회사 고유번호|
-|imp_companyNm|영화 수입 회사 명칭|
-|imp_companyNmEn|영화 수입 회사 명칭(영문)|
-|is_adult|영상물 심의 등급|
+|Dataset|Variable name|Variable description|Dataset|Variable name|Variable description|Dataset|Variable name|Variable description|
+|------|------|---|------|------|---|------|------|---|
+|MovieDetails|movieCd|영화 고유번호|MovieAwards|eventId|영화제 고유 아이디|
+||movieNm|영화 제목||eventName|영화제 명칭|
+||movieNmEn|영화 제목(영문)|
+||prdtYear|영화 제작년도|
+||openDt|영화 개봉일자|
+||showTm|영화 러닝타임|
+||prdtStatNm|영화 제작 상태|
+||typeNm|영화 분류|
+||nationNm|영화 제작 국가|
+||genres_1|영화 장르|
+||genres_2|영화 장르|
+||directorNmEn|영화 감독(영문)|
+||actor_1|영화 배우|
+||actor_2|영화 배우|
+||actor_3|영화 배우|
+||prod_companyCd|영화 제작 회사 고유번호|
+||prod_companyNm|영화 제작 회사 명칭|
+||prod_companyNmEn|영화 제작 회사 명칭(영문)|
+||dist_companyCd|영화 배급 회사 고유번호|
+||dist_companyNm|영화 배급 회사 명칭|
+||dist_companyNmEn|영화 배급 회사 명칭(영문)|
+||imp_companyCd|영화 수입 회사 고유번호|
+||imp_companyNm|영화 수입 회사 명칭|
+||imp_companyNmEn|영화 수입 회사 명칭(영문)|
+||is_adult|영상물 심의 등급|
 
 - Movieview
 
