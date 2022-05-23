@@ -126,8 +126,8 @@
 |name|영화제 수상자·수상작 이름|
 |originalName|영화·드라마 명칭|
 |songNames|음악 명칭|
-|episodeNames|시리즈 에피소드 제목|
-|characterNames|영화·드라마 내 등장인물 이름|
+|episodeNames|드라마 시리즈 에피소드 제목|
+|characterNames|영화·드라마 내 극중 인물의 이름|
 |isWinner|영화제 수상 여부|
 |isPrimary|?|
 |isSecondary|?|
