@@ -51,8 +51,10 @@
 ### 데이터: 내용
 
 #### 1. IMDb
-공식 홈페이지에 있는 데이터에서 데이터의 범주가 **영화**인 데이터를 사용하였습니다. 이 데이터는 1896년 01월 01일부터 전체 데이터는 약 61만 개이고, 전체 데이터의 컬럼은 11개입니다.
+공식 홈페이지에 있는 데이터에서 데이터의 범주가 **영화**인 데이터를 사용하였습니다. 
 
+#### 1.1. MoviesWithRating
+이 데이터는 1896년 01월 01일부터 2029년 12월 31일까지의 데이터를 포함하고 있습니다. 전체 데이터는 약 61만 개이고, 전체 데이터의 컬럼은 11개입니다.
 |Variable name|Variable description|
 |------|---|
 |tconst|alphanumeric unique identifier of the title|
@@ -67,10 +69,37 @@
 |averageRating|weighted average of all the individual user ratings|
 |numVotes|number of votes the title has received|
 
+#### 1.2. Movieawards
+이 데이터는 1886년 01월 01일부터 2020년 12월 31일까지의 데이터를 포함하고 있습니다. 전체 데이터는 약 22만 개이고, 전체 데이터의 컬럼은 21개입니다.
+|Variable name|Variable description|
+|------|---|
+|eventId|영화제 고유 아이디|
+|eventName|영화제 명칭|
+|awardName|영화제 수상 부문|
+|year|영화제 개최년도|
+|categoryName|영화제 수상 내역|
+|nomeneeNote|영화제 노미네이트 구분|
+|name|영화제 수상자·수상작 이름|
+|originalName|영화·드라마 명칭|
+|songNames|음악 명칭|
+|episodeNames|드라마 시리즈 에피소드 제목|
+|characterNames|영화·드라마 내 극중 인물의 이름|
+|isWinner|영화제 수상 여부|
+|isPerson|영화제 수상자 구분|
+|isTitle|영화제 수상작 구분|
+|const|영화제 수상자·수상작 고유 번호|
+|notes|기타|
+|~~occurrence~~|-|
+|~~winAnnouncementTime~~|-|
+|~~isPrimary~~|-|
+|~~isSecondary~~|-|
+|~~isCompany~~|-|
+
 #### 2. KOBIS:KOREA Box-office Information System
-공식 홈페이지에서 **월별 박스오피스 조회 기간**을 설정하여 데이터를 수집하였습니다. 이 데이터는 2004년 01월 01일부터 2022년 05월 18일까지의 데이터를 포함하고 있습니다. 전체 데이터는 약 2만 개이고, 전체 데이터의 컬럼은 25개입니다.
+공식 홈페이지에서 **월별 박스오피스 조회 기간**을 설정하여 데이터를 수집하였습니다.
 
 #### 2.1. Moviedetails
+이 데이터는 2004년 01월 01일부터 2022년 05월 18일까지의 데이터를 포함하고 있습니다. 전체 데이터는 약 2만 개이고, 전체 데이터의 컬럼은 25개입니다.
 |Variable name|Variable description|
 |-----|-----|
 |movieCd|영화 고유번호|
@@ -100,6 +129,7 @@
 |is_adult|영상물 심의 등급|
 
 #### 2.2. Movieview
+이 데이터는 2004년 01월 01일부터 2022년 05월 18일까지의 데이터를 포함하고 있습니다. 전체 데이터는 약 2만 개이고, 전체 데이터의 컬럼은 6개입니다.
 |Variable name|Variable description|
 |------|---|
 |movieNm|영화 제목|
@@ -108,31 +138,6 @@
 |acc_view|영화 관객 수|
 |screen_cnt|영화 상영관 수|
 |show_cnt|영화 상영 횟수|
-
-#### 2.3. Movieawards
-|Variable name|Variable description|
-|------|---|
-|eventId|영화제 고유 아이디|
-|eventName|영화제 명칭|
-|awardName|영화제 수상 부문|
-|year|영화제 개최년도|
-|categoryName|영화제 수상 내역|
-|nomeneeNote|영화제 노미네이트 구분|
-|name|영화제 수상자·수상작 이름|
-|originalName|영화·드라마 명칭|
-|songNames|음악 명칭|
-|episodeNames|드라마 시리즈 에피소드 제목|
-|characterNames|영화·드라마 내 극중 인물의 이름|
-|isWinner|영화제 수상 여부|
-|isPerson|영화제 수상자 구분|
-|isTitle|영화제 수상작 구분|
-|const|영화제 수상자·수상작 고유 번호|
-|notes|기타|
-|~~occurrence~~|-|
-|~~winAnnouncementTime~~|-|
-|~~isPrimary~~|-|
-|~~isSecondary~~|-|
-|~~isCompany~~|-|
 
 ### 데이터: 분석
 
@@ -160,7 +165,7 @@
 ### 심화 학습
 
 #### 1. 심화 학습: 다층 퍼셉트론
-다층 퍼셉트론은 입력층과 한 개 이상의 은닉층, 출력층으로 이루어지며 각 층 간에는 연결강도가 존재한다. 다층 퍼셉트론에서의 학습은 바로 이 연결강도의 변화를 통하여 오류에너지를 줄이는 방법이다. 오류에너지를 출력층에서 입력층 쪽으로 연결강도를 수정하게 된다. 이를 위하여 오류역전파 알고리즘을 이용하여 학습시키게 된다.
+다층 퍼셉트론은 입력층과 한 개 이상의 은닉층, 출력층으로 이루어지며 각 층 간에는 연결 강도가 존재합니다. 다층 퍼셉트론에서의 학습은 바로 이 연결 강도의 변화를 통하여 오류 에너지를 줄이는 방법입니다. 오류 에너지를 출력층에서 입력층으로 연결강도를 수정하게 된다. 이를 위하여 오류역전파 알고리즘을 이용하여 학습시키게 된다.
 
 ## 참고문헌
 - Seonghyeon Jeona, Young Sook Sona(2016). Prediction of box office using data mining. The Korean Journal of Applied Statistics (2016), 29(7), 1257–1270.
