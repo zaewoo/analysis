@@ -3,7 +3,7 @@
 <div align="Right">
     작성일자: 2022.05.18
     </br>
-    수정일자: 2022.05.23
+    수정일자: 2022.05.24
     </br>
     </br>
     박덕용 
@@ -81,14 +81,14 @@
 |nomeneeNote|영화제 노미네이트 구분|
 |name|영화제 수상자·수상작 이름|
 |originalName|영화·드라마 명칭|
-|songNames|음악 명칭|
-|episodeNames|드라마 시리즈 에피소드 제목|
 |characterNames|영화·드라마 내 극중 인물의 이름|
 |isWinner|영화제 수상 여부|
 |isPerson|영화제 수상자 구분|
 |isTitle|영화제 수상작 구분|
 |const|영화제 수상자·수상작 고유 번호|
-|notes|기타|
+|~~episodeNames~~|드라마 시리즈 에피소드 제목|
+|~~songNames~~|음악 명칭|
+|~~notes~~|기타|
 |~~occurrence~~|-|
 |~~winAnnouncementTime~~|-|
 |~~isPrimary~~|-|
