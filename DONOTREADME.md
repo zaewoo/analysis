@@ -76,7 +76,7 @@
 |numVotes|number of votes the title has received|
 
 #### 1.2. Movieawards
-이 데이터는 1886년 01월 01일부터 2020년 12월 31일까지의 데이터를 포함하고 있습니다. 전체 데이터는 약 22만 개이고, 전체 데이터의 컬럼은 21개입니다.
+이 데이터는 1886년 01월 01일부터 2020년 12월 31일까지의 데이터를 포함하고 있습니다. 전체 데이터는 약 215만 개이고, 전체 데이터의 컬럼은 21개입니다.
 |Variable name|Variable description|
 |------|---|
 |eventId|영화제 고유 아이디|
