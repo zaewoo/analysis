@@ -86,9 +86,9 @@
 |isPerson|영화제 수상자 구분|
 |isTitle|영화제 수상작 구분|
 |const|영화제 수상자·수상작 고유 번호|
-|~~episodeNames~~|드라마 시리즈 에피소드 제목|
-|~~songNames~~|음악 명칭|
-|~~notes~~|기타|
+|~~episodeNames~~|~~드라마 시리즈 에피소드 제목~~|
+|~~songNames~~|~~음악 명칭~~|
+|~~notes~~|~~기타~~|
 |~~occurrence~~|-|
 |~~winAnnouncementTime~~|-|
 |~~isPrimary~~|-|
