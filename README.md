@@ -77,14 +77,15 @@
 </div>
 
 #### 2. KOBIS:KOREA Box-office Information System
-> 이는 영화진흥위원회에서 매년 발표하는 한국영화연감(1971~2010)의 통계를 기준으로 정리한 데이터입니다. 한국영화연감은 2011년부터는 통합전산망을 기준으로 일정한 주기로 마감처리하여 산출되는 통계 정보입니다. 이 정보는 통계 마감 주기에 따라 공식통계 수치는 추후 변동될 수 있습니다. 추가적으로 전국 통계 데이터는 2004년 이후부터 배급사의 협조가 가능한 경우에만 부분적으로 집계되어 있습니다.
+> 영화진흥위원회에서 매년 발표하는 한국영화연감(1971~2010)의 통계를 기준으로 정리한 데이터입니다. 한국영화연감은 2011년부터는 통합전산망을 기준으로 일정한 주기로 마감처리하여 산출되는 통계 정보입니다. 이 정보는 통계 마감 주기에 따라 공식통계 수치는 추후 변동될 수 있습니다. 추가적으로 전국 통계 데이터는 2004년 이후부터 배급사의 협조가 가능한 경우에만 부분적으로 집계되어 있습니다.
 
 <div align="Right">
     Page Link: https://www.kobis.or.kr/kobis/business/main/main.do
 </div>
 
 #### 3. KOFIC:KOREA Film Council
-> 영화진흥위원회가 제공하는 통합전산망이 제공하는 오픈API서비스입니다. 그 중에서 [영화 목록 조회 API 서비스](http://www.kobis.or.kr/kobisopenapi/homepg/apiservice/searchServiceInfo.do)를 이용하였습니다. 이는 영화진흥위원회가 제공하는 통합전산망에서 제공하는 영화 목록을 영화명, 감독명등의 조건으로 조회할 수 있는 서비스입니다.
+> 영화진흥위원회 영화관 입장권 통합 전산망에서 제공하는 오픈API 서비스입니다. 
+> 그 중에서 [영화 목록 조회 API 서비스](http://www.kobis.or.kr/kobisopenapi/homepg/apiservice/searchServiceInfo.do)를 이용하였습니다. 이는 영화진흥위원회가 제공하는 통합전산망에서 제공하는 영화 목록을 영화명, 감독명등의 조건으로 조회할 수 있는 서비스입니다.
 
 <div align="Right">
     Page Link: https://www.kobis.or.kr/kobisopenapi/homepg/main/main.do
@@ -126,4 +127,4 @@
 [10] 홍수민. [COVER STORY] 팬데믹 시대, 신생 투자배급사를 점검하다. <월간 한국영화>. September 30, 2021.
 
 ## 기타
-[1] 사진 출처: https://.pngtree.com/free-backgrounds
+[1] 사진 출처: https://pngtree.com/free-backgrounds
