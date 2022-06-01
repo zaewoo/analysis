@@ -84,7 +84,7 @@
 </div>
 
 #### 3. KOFIC:KOREA Film Council
-> 이는 영화진흥위원회가 제공하는 통합전산망이 제공하는 오픈API서비스 모음입니다. 
+> 이는 영화진흥위원회가 제공하는 통합전산망이 제공하는 오픈API서비스입니다. 그 중에서 '**영화 목록 조회 API 서비스**'를 사용하였습니다. 영화 목록 조회는 통합전산망에서 사용하는 영화 목록을 영화명, 감독명등의 조건으로 조회할 수 있습니다. 
 
 <div align="Right">
     Page Link: https://www.kobis.or.kr/kobisopenapi/homepg/main/main.do
