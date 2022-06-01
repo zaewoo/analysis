@@ -21,6 +21,7 @@
 1. [개요](#개요)
 
     1.1. [주제](#주제)
+
     
     1.2. [목적](#목적)
     
@@ -82,7 +83,7 @@
 </div>
 
 #### 3. KOFIC:KOREA Film Council
-> 이는 영화진흥위원회가 제공하는 통합전산망 
+> 이는 영화진흥위원회가 제공하는 통합전산망이 제공하는 오픈API서비스 모음입니다. 
 
 <div align="Right">
     Page Link: https://www.kobis.or.kr/kobisopenapi/homepg/main/main.do
@@ -123,4 +124,5 @@
 
 [10] 홍수민. [COVER STORY] 팬데믹 시대, 신생 투자배급사를 점검하다. <월간 한국영화>. September 30, 2021.
 
-
+## 기타
+[1] 사진 출처: https://.pngtree.com/free-backgrounds
