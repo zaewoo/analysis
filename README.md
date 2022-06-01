@@ -192,9 +192,11 @@
 
 <details>
     <summary>더보기</summary>
+    
 ![스크린샷 2022-06-01 오후 6 34 10](https://user-images.githubusercontent.com/97165359/171374273-98d83da1-6556-481f-9b4a-f0ce05b96737.png)
 ![스크린샷 2022-06-01 오후 6 36 26](https://user-images.githubusercontent.com/97165359/171374720-2fefdf20-4c47-4cad-b052-09063cbec7e7.png)
 ![스크린샷 2022-06-01 오후 6 36 44](https://user-images.githubusercontent.com/97165359/171374793-14f02119-a15a-4c5c-a63b-ea095f372dec.png)
+    
 <div align="Right">
     출처 : 연도별 한국영화연감(영화진흥위원회)
     통계생산기관 : 문화체육관광부, 영상콘텐츠산업과
