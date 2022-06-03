@@ -54,20 +54,20 @@
 
 7. [기타](#기타)
 
-## 개요
+## 1. 개요
 
-### 주제
+### 1.1. 주제
 이 프로젝트는 국내에서 상영되었던 영화로 개봉이 예정되어 있는 영화의 관객 수를 예측하는 프로젝트입니다. 
 
-### 목적
+### 1.2. 목적
 이 프로젝트로 외국에서 상영되었던, 혹은 외국에서 개봉이 예정되어 있는 영화가 국내에서 개봉하였을 때의 영화 관객 수를 예측할 수 있습니다. 이를 활용하여 외국으로부터 영화를 수입·배급하고 있는 회사가 외국에서 상영되었던, 혹은 외국에서 개봉이 예정되어 있는 영화의 수익성을 분석할 수 있습니다. 
 
-### 결과
+### 1.3. 결과
 결과에 대해서 서술해 주세요.
 
-## 서론
+## 2. 서론
 
-### 배경
+### 2.1. 배경
 
 ![picture02 001](https://user-images.githubusercontent.com/97165359/169933472-fc638d5c-823c-4105-977b-4b1de44c8cb7.jpeg)
 
@@ -75,37 +75,37 @@
 
 더 나아가 영화진흥위원회에서 간행하고 있는 <월간 한국 영화>의 ['팬데믹 시대, 신생 투자배급사를 점검하다'](https://www.kofic.or.kr/kofic/business/rsch/findPublishIndexInfoDetail.do?boardNumber=40&flag=1&pubSeqNo=2944&idxSeqNo=6896)에서는 팬데믹 이후 신생 투자·배급사, 그리고 중소 투자·배급사의 위기설에 대해 언급한 바 있습니다. 그 내용은 이들이 제작·투자한 영화들이 팬데믹으로 인해 흥행에 실패했다는 내용입니다. 그러므로 투자·배급사는 영화의 투자·배급에 더욱 신중할 수밖에 없습니다. [더보기](https://github.com/zaewoo/project/blob/master/CONTEXT.md)
 
-## 본론: 데이터
+## 3. 본론: 데이터
 
-### 데이터: 개요
+### 3.1. 데이터: 개요
 
-#### 1. IMDb
+#### 3.1.1. IMDb
 > Each dataset is contained in a gzipped, tab-separated-values (TSV) formatted file in the UTF-8 character set. The first line in each file contains headers that describe what is in each column. A ‘\N’ is used to denote that a particular field is missing or null for that title/name.
 
 <div align="Right">
     Page Link: https://www.imdb.com/interfaces/
 </div>
 
-#### 2. KOBIS:KOREA Box-office Information System
+#### 3.1.2. KOBIS:KOREA Box-office Information System
 > 영화진흥위원회에서 매년 발표하는 한국영화연감(1971~2010)의 통계를 기준으로 정리한 데이터입니다. 한국영화연감은 2011년부터는 통합전산망을 기준으로 일정한 주기로 마감처리하여 산출되는 통계 정보입니다. 이 정보는 통계 마감 주기에 따라 공식통계 수치는 추후 변동될 수 있습니다. 추가적으로 전국 통계 데이터는 2004년 이후부터 배급사의 협조가 가능한 경우에만 부분적으로 집계되어 있습니다.
 
 <div align="Right">
     Page Link: https://www.kobis.or.kr/kobis/business/main/main.do
 </div>
 
-#### 3. KOFIC:KOREA Film Council
+#### 3.1.3. KOFIC:KOREA Film Council
 > 영화진흥위원회 영화관 입장권 통합 전산망에서 제공하는 오픈API 서비스입니다. 이 사이에서 [영화 목록 조회 API 서비스](http://www.kobis.or.kr/kobisopenapi/homepg/apiservice/searchServiceInfo.do)를 이용하였습니다. 이는 영화진흥위원회가 제공하는 통합전산망에서 제공하는 영화 목록을 영화명, 감독명등의 조건으로 조회할 수 있는 서비스입니다.
 
 <div align="Right">
     Page Link: https://www.kobis.or.kr/kobisopenapi/homepg/main/main.do
 </div>
 
-### 데이터: 내용
+### 3.2. 데이터: 내용
 
-#### 1. IMDb
+#### 3.2.1. IMDb
 공식 홈페이지에 있는 데이터에서 데이터의 범주가 **영화**인 데이터를 사용하였습니다. 
 
-#### 1.1. Details & Ratings
+#### 3.2.1.1. Details & Ratings
 이 데이터는 1896년 01월 01일부터 2029년 12월 31일까지의 데이터를 포함하고 있습니다. 전체 데이터는 약 61만 개이고, 전체 데이터의 컬럼은 11개입니다.
 
 <div align="Center">
@@ -126,10 +126,10 @@
     
 </div>
 
-#### 2. KOBIS:KOREA Box-office Information System
+#### 3.2.2. KOBIS:KOREA Box-office Information System
 공식 홈페이지에서 **월별 박스오피스 조회 기간**을 설정하여 데이터를 수집하였습니다.
 
-#### 2.1. Audience
+#### 3.2.2.1. Audience
 이 데이터는 2004년 01월 01일부터 2022년 05월 18일까지의 데이터를 포함하고 있습니다. 전체 데이터는 약 2만 개이고, 전체 데이터의 컬럼은 25개입니다.
 
 <div align="Center">
@@ -164,7 +164,7 @@
 
 </div> 
 
-#### 2.2. Details
+#### 3.2.2.2. Details
 이 데이터는 2004년 01월 01일부터 2021년 12월 31일까지의 데이터를 포함하고 있습니다. 전체 데이터는 약 2만 개이고, 전체 데이터의 컬럼은 6개입니다.
 
 <div align="Center">
