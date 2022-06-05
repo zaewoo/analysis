@@ -325,6 +325,8 @@
 각 시도마다 동일한 특성을 사용하였습니다. 구체적으로 영화 상영 시간, 영화 수입·배급사, 영화 장르, 영상물 심의 등급, 영화 개봉 월, 영화 배우, 영화 감독을 특성으로 사용했습니다. 학습에 사용되는 데이터는 전체 데이터의 70%를 사용하였고, 테스트에 사용되는 데이터는 전체 데이터의 30%를 사용하였습니다. 
     
 ### 모델: 실행
+Trial Key Steps
+
 |Features|Description|Trial 1|Trial 2|Trial 3|Trial 4|Trial 5|
 |:--------:|:-----------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 |runTm|영화 러닝타임|MinMaxScaler|MinMaxScaler|MinMaxScaler|MinMaxScaler|MinMaxScaler|
@@ -335,6 +337,18 @@
 |is_adult|영상물 심의 등급|-|-|-|-|-|
 |distributor|영화 배급·수입사|LabelEncoding|관객수 중앙값 → MinMaxScaler|관객수 중앙값 → MinMaxScaler|관객수 평균값 → MinMaxScaler|관객수 중앙값 → MinMaxScaler|
 |openMonth|영화 개봉일자(월)|LabelEncoding|LabelEncoding|관객수 중앙값 → MinMaxScaler|관객수 평균값 → MinMaxScaler|LabelEncoding|
+
+Test Data Accuracy Summary
+||Parameters|Trial 1|Trial 2|Trial 3|Trial 4|Trial 5|
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|LogisticRegression|solver = liblinear|0.53722|0.52008|0.47894|0.49314|0.48041|
+|DecisionTree|max_depth = 8|0.47062|0.72037|0.72821|0.72821|0.72282|
+|RandomForest|n_estimators = 100|0.52791|0.73213|0.73653|0.73115|0.73213|
+|LGBM|-|-|0.73457|0.72919|0.71792|0.73310|
+|GradientBoosting|n_estimators = 100, learning_rate = 0.01, max_depth = 4|-|-|0.75465|0.73996|0.75367|
+|GridSearchCV|n_estimators = 100, learning_rate = 0.01, max_depth = 4|-|-|0.75465|0.74290|0.74878|
+|XGBoost|n_estimators = 200, learning_rate = 0.01, max_depth = 3|-|-|0.75171|0.73115|0.75122|
+|AdaBoost|n_estimators = 200, learning_rate = 0.01, max_depth = 3|-|-|0.72086|0.66846|0.70568|
 
 ## 결론
 결론에 대해서 서술해 주세요.
