@@ -212,18 +212,9 @@
 
 <div align="Center">
     
-|Variable name|Variable description|
-|------|---|
-|movieCd|영화 고유번호|
-|movieNm|영화 제목|  
-|showTm|영화 러닝타임|
-|openDt|영화 개봉일자|    
-|nations|영화 제작 국가|
-|genreNm|영화 장르|
-|directors|영화 감독(영문)|
-|actors|영화 배우|
-|audits|영상물 심의 등급|
-|companys|영화 배급·수입사|   
+||영화 제목|영화 배우|영화 배우|영화 배우|
+|:--:|--|--|--|--|
+|1|인터스텔라|매튜 맥커너히|앤 해서웨이|마이클 케인|
     
 </div>
 
@@ -293,9 +284,26 @@
 ### 3.4. 데이터: 정리
 위의 과정 끝에 학습 모델에 사용할 데이터는 다음과 같습니다.
 
-|Vari|영화 제목|영화 배우|영화 배우|영화 배우|
-|:--:|--|--|--|--|
-|1|인터스텔라|매튜 맥커너히|앤 해서웨이|마이클 케인|
+</br>
+
+<div align="Center">
+    
+|Variable name|Variable description|
+|------|---|
+|movieCd|영화 고유번호|
+|movieNm|영화 제목|  
+|showTm|영화 러닝타임|
+|openDt|영화 개봉일자|    
+|nations|영화 제작 국가|
+|genreNm|영화 장르|
+|directors|영화 감독(영문)|
+|actors|영화 배우|
+|audits|영상물 심의 등급|
+|companys|영화 배급·수입사|   
+
+</div>
+
+</br>
 
 ## 본론: 모델
 
