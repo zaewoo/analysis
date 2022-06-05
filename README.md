@@ -326,7 +326,7 @@
     
 ### 모델: 실행
 |Features|Description|Trial 1|Trial 2|Trial 3|Trial 4|Trial 5|
-|--------|-----------|-------|-------|-------|-------|-------|
+|:--------:|:-----------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 |runTm|영화 러닝타임|MinMaxScaler|MinMaxScaler|MinMaxScaler|MinMaxScaler|MinMaxScaler|
 |nation|영화 제작 국가|LabelEncoding|LabelEncoding|LabelEncoding|LabelEncoding|LabelEncoding|
 |genre|영화 장르|LabelEncoding|LabelEncoding|관객수 중앙값 → MinMaxScaler|관객수 평균값 → MinMaxScaler|관객수 중앙값 → MinMaxScaler|
