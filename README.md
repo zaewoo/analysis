@@ -339,7 +339,9 @@
 |distributor|영화 배급·수입사|LabelEncoding|영화 배급·수입사 전체 관객 수의 중앙값 → MinMaxScaler|영화 배급·수입사 전체 관객 수의 중앙값 → MinMaxScaler|영화 배급·수입사 전체 관객 수의 평균값 → MinMaxScaler|영화 배급·수입사 전체 관객 수의 중앙값 → MinMaxScaler|
 |openMonth|영화 개봉일자(월)|LabelEncoding|LabelEncoding|영화 개봉일자(월) 전체 관객 수의 중앙값 → MinMaxScaler|영화 개봉일자(월) 전체 관객 수의 평균값 → MinMaxScaler|LabelEncoding|
 
-여기서 전체 관객 수의 중앙값, 혹은 평균값이 의미하는 바는 다음과 같습니다. 
+</br>
+
+위의 표에서 전체 관객 수의 중앙값, 혹은 평균값이 의미하는 바는 다음과 같습니다. 
 
 </br>
 
@@ -371,9 +373,61 @@
 |XGBoost|n_estimators = 200, learning_rate = 0.01, max_depth = 3|-|-|0.75171|0.73115|0.75122|
 |AdaBoost|n_estimators = 200, learning_rate = 0.01, max_depth = 3|-|-|0.72086|0.66846|0.70568|
 
-#### 4.3.2. 모델: 첫 번째 실행
+#### 4.3.3. 모델: 첫 번째 실행
+**영화 제작 국가, 영화 장르, 영화 감독, 영화 배우, 영화 배급·수입사, 영화 개봉일자(월)**은 **sklearn.preprocessing.LabelEncoder**을 이용해서 문자로 된 데이터를 숫자로 변환하였습니다. **영화 러닝타임**은 **sklearn.preprocessing.MinMaxScaler**을 이용해서 값의 범위를 축소하였습니다. 
 
+</br>
 
+<div align="Center">
+    
+||LogisticRegression|DecisionTree|RandomForest|LBGM|
+|--|--|--|--|--|
+|Train Accuracy|0.84005|0.51973|0.99979|-|
+|Test Accuracy|0.53722|0.47062|0.52791|-|
+    
+</div>
+
+</br>
+
+- 세 가지 학습 모델 모두 좋지 않은 성능을 보입니다.
+- 영화 러닝타임을 제외하고 모든 특성에 라벨 인코딩을 하면 매개변수가 너무 많아집니다. 그리고 이는 직접적으로 영화 관객 수를 예측하는 데에 영향을 미치지 않는 듯 보입니다.
+
+#### 4.3.4. 모델: 두 번째 실행
+**영화 제작 국가, 영화 장르, 영화 개봉일자(월)**은 **sklearn.preprocessing.LabelEncoder**을 이용해서 문자로 된 데이터를 숫자로 변환하였습니다. **영화 감독, 영화 배우, 영화 배급·수입사**는 영화의 제작에 관여한 모든 영화의 관객 수의 **중앙값**을 가중치로 하였습니다. 그리고 **영화 감독, 영화 배우, 영화 배급·수입사의 영화 관객 수에 대한 가중치, 그리고 영화 러닝타임**은 **sklearn.preprocessing.MinMaxScaler**을 이용해서 값의 범위를 축소하였습니다. 
+
+</br>
+
+<div align="Center">
+    
+||LogisticRegression|DecisionTree|RandomForest|LBGM|
+|---|---|---|---|---|
+|Train Accuracy|0.52330|0.80877|0.99979|0.99979|
+|Test Accuracy|0.52008|0.72037|0.73213|0.73457|
+</div>
+
+</br>
+
+- 이전의 시도와 비교하여 성능이 개선되었다는 점을 알 수 있습니다.
+- 그러나 학습 모델이 학습 데이터를 과하게 학습하는 듯한 모습을 보였습니다. 
+
+#### 4.3.5. 모델: 세 번째 실행
+**영화 제작 국가**는 **sklearn.preprocessing.LabelEncoder**을 이용해서 문자로 된 데이터를 숫자로 변환하였습니다. **영화 장르, 영화 감독, 영화 배우, 영화 배급·수입사, 영화 개봉일자(월)**은 영화의 제작에 관여한 모든 영화의 관객 수의 **중앙값**을 가중치로 하였습니다. 그리고 **영화 장르, 영화 감독, 영화 배우, 영화 배급·수입사, 영화 개봉일자(월)**의 영화 관객 수에 대한 가중치, 그리고 영화 러닝타임은 **sklearn.preprocessing.MinMaxScaler**을 이용해서 값의 범위를 축소하였습니다. 이 과정에서는 학습 모델이 일정 이상의 성능을 보인다는 점, 그리고 이전의 시도에서 학습 모델이 학습 데이터를 과하게 학습하는 듯한 모습을 보인다는 점을 들어 부스팅 알고리즘을 적용하였습니다.
+
+</br>
+
+<div align="Center">
+    
+||LogisticRegression|DecisionTree|RandomForest|LBGM|GradientBoost|GridSearchCV|XGBClassifier|AdaBoost|
+|---|---|---|---|---|---|---|---|---|
+|Train Accuracy|0.52330|0.80877|0.99979|0.99979|0.79219|0.79219|0.76406|0.96012|
+|Test Accuracy|0.52008|0.72037|0.73213|0.73457|0.75465|0.75465|0.75171|0.72086|
+    
+</div>
+
+</br>
+
+- 부스팅 알고리즘을 적용하여 학습 모델이 학습 데이터를 과하게 학습하는 듯한 모습을 줄였습니다.
+- 각 특성의 중요도를 확인해본 결과 영화 관객 수에 영화 감독, 영화 배우, 그리고 영화 배급·수입사 가장 많은 영향을 미쳤습니다.
 
 ## 결론
 결론에 대해서 서술해 주세요.
