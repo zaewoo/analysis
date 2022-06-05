@@ -332,12 +332,12 @@
 |:--------:|:-----------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 |runTm|영화 러닝타임|MinMaxScaler|MinMaxScaler|MinMaxScaler|MinMaxScaler|MinMaxScaler|
 |nation|영화 제작 국가|LabelEncoding|LabelEncoding|LabelEncoding|LabelEncoding|LabelEncoding|
-|genre|영화 장르|LabelEncoding|LabelEncoding|관객수 중앙값 → MinMaxScaler|관객수 평균값 → MinMaxScaler|관객수 중앙값 → MinMaxScaler|
-|director|영화 감독|LabelEncoding|관객수 중앙값 → MinMaxScaler|관객수 중앙값 → MinMaxScaler|관객수 평균값 → MinMaxScaler|관객수 중앙값 → MinMaxScaler|
-|actor|영화 배우|LabelEncoding|관객수 중앙값 → MinMaxScaler|관객수 중앙값 → MinMaxScaler|관객수 평균값 → MinMaxScaler|관객수 중앙값 → MinMaxScaler|
+|genre|영화 장르|LabelEncoding|LabelEncoding|장르 전체 관객 수의 중앙값 → MinMaxScaler|장르 전체 관객 수의 평균값 → MinMaxScaler|장르 전체 관객 수의 중앙값 → MinMaxScaler|
+|director|영화 감독|LabelEncoding|영화 감독 전체 관객 수의 중앙값 → MinMaxScaler|영화 감독 전체 관객 수의 중앙값 → MinMaxScaler|영화 감독 전체 관객 수의 평균값 → MinMaxScaler|영화 감독 전체 관객 수의 중앙값 → MinMaxScaler|
+|actor|영화 배우|LabelEncoding|영화 배우 전체 관객 수의 중앙값 → MinMaxScaler|영화 배우 전체 관객 수의 중앙값 → MinMaxScaler|영화 배우 전체 관객 수의 평균값 → MinMaxScaler|영화 배우 전체 관객 수의 중앙값 → MinMaxScaler|
 |is_adult|영상물 심의 등급|-|-|-|-|-|
-|distributor|영화 배급·수입사|LabelEncoding|관객수 중앙값 → MinMaxScaler|관객수 중앙값 → MinMaxScaler|관객수 평균값 → MinMaxScaler|관객수 중앙값 → MinMaxScaler|
-|openMonth|영화 개봉일자(월)|LabelEncoding|LabelEncoding|관객수 중앙값 → MinMaxScaler|관객수 평균값 → MinMaxScaler|LabelEncoding|
+|distributor|영화 배급·수입사|LabelEncoding|영화 배급·수입사 전체 관객 수의 중앙값 → MinMaxScaler|영화 배급·수입사 전체 관객 수의 중앙값 → MinMaxScaler|영화 배급·수입사 전체 관객 수의 평균값 → MinMaxScaler|영화 배급·수입사 전체 관객 수의 중앙값 → MinMaxScaler|
+|openMonth|영화 개봉일자(월)|LabelEncoding|LabelEncoding|영화 개봉일자(월) 전체 관객 수의 중앙값 → MinMaxScaler|영화 개봉일자(월) 전체 관객 수의 평균값 → MinMaxScaler|LabelEncoding|
 
 #### 4.3.2. 모델: 성능
 이는 각 시도마다 학습 모델의 성능에 대해서 정리하였습니다.
@@ -352,6 +352,10 @@
 |GridSearchCV|n_estimators = 100, learning_rate = 0.01, max_depth = 4|-|-|0.75465|0.74290|0.74878|
 |XGBoost|n_estimators = 200, learning_rate = 0.01, max_depth = 3|-|-|0.75171|0.73115|0.75122|
 |AdaBoost|n_estimators = 200, learning_rate = 0.01, max_depth = 3|-|-|0.72086|0.66846|0.70568|
+
+#### 4.3.2. 모델: 첫 번째 실행
+
+
 
 ## 결론
 결론에 대해서 서술해 주세요.
