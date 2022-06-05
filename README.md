@@ -325,7 +325,16 @@
 각 시도마다 동일한 특성을 사용하였습니다. 구체적으로 영화 상영 시간, 영화 수입·배급사, 영화 장르, 영상물 심의 등급, 영화 개봉 월, 영화 배우, 영화 감독을 특성으로 사용했습니다. 학습에 사용되는 데이터는 전체 데이터의 70%를 사용하였고, 테스트에 사용되는 데이터는 전체 데이터의 30%를 사용하였습니다. 
     
 ### 모델: 실행
-실행에 대해서 서술해 주세요.
+|Features|Description|Trial 1|Trial 2|Trial 3|Trial 4|Trial 5|
+|--------|-----------|-------|-------|-------|-------|-------|
+|runTm|영화 러닝타임|MinMaxScaler|MinMaxScaler|MinMaxScaler|MinMaxScaler|MinMaxScaler|
+|nation|영화 제작 국가|LabelEncoding|LabelEncoding|LabelEncoding|LabelEncoding|LabelEncoding|
+|genre|영화 장르|LabelEncoding|LabelEncoding|관객수 중앙값 → MinMaxScaler|관객수 평균값 → MinMaxScaler|관객수 중앙값 → MinMaxScaler|
+|director|영화 감독|LabelEncoding|관객수 중앙값 → MinMaxScaler|관객수 중앙값 → MinMaxScaler|관객수 평균값 → MinMaxScaler|관객수 중앙값 → MinMaxScaler|
+|actor|영화 배우|LabelEncoding|관객수 중앙값 → MinMaxScaler|관객수 중앙값 → MinMaxScaler|관객수 평균값 → MinMaxScaler|관객수 중앙값 → MinMaxScaler|
+|is_adult|영상물 심의 등급|-|-|-|-|-|
+|distributor|영화 배급·수입사|LabelEncoding|관객수 중앙값 → MinMaxScaler|관객수 중앙값 → MinMaxScaler|관객수 평균값 → MinMaxScaler|관객수 중앙값 → MinMaxScaler|
+|openMonth|영화 개봉일자(월)|LabelEncoding|LabelEncoding|관객수 중앙값 → MinMaxScaler|관객수 평균값 → MinMaxScaler|LabelEncoding|
 
 ## 결론
 결론에 대해서 서술해 주세요.
