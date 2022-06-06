@@ -575,4 +575,17 @@
 [10] 홍수민. [COVER STORY] 팬데믹 시대, 신생 투자배급사를 점검하다. <월간 한국영화>. September 30, 2021.
 
 ## 기타
+
 [1] 사진 출처: https://pngtree.com/free-backgrounds
+
+[2] 정보 출처: https://www.youtube.com/watch?v=Hj4w4jukm4U
+
+[3] 정보 출처: https://www.youtube.com/watch?v=b3tjkUeAVa8
+
+[4] 정보 출처: https://www.youtube.com/watch?v=y1VVvnzQIx4
+
+[5] 정보 출처: https://www.youtube.com/watch?v=rFADkXWicBE
+
+[6] 정보 출처: https://www.youtube.com/watch?v=D6_hBNgEyeE
+
+[7] 정보 출처: https://brunch.co.kr/@campuscine21/72
