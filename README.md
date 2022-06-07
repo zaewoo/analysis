@@ -577,14 +577,14 @@
 ## 기타
 [1] 사진 출처: https://pngtree.com/free-backgrounds
 
-[2] 정보 출처: https://www.youtube.com/watch?v=Hj4w4jukm4U
+[2] 씨네21. (2020. 9. 12). [#CAREER] '영화 배급'이 뭔가요? 영화 배급 전문가가 알려주는 영화판의 모든 것. https://www.youtube.com/watch?v=Hj4w4jukm4U
 
-[3] 정보 출처: https://www.youtube.com/watch?v=b3tjkUeAVa8
+[3] 씨네21. (2021. 7. 16). [#CAREER] 영화 투자배급사에 궁금한 모든 것, 메가박스 본부장에게 물어봤다!. https://www.youtube.com/watch?v=y1VVvnzQIx4
 
-[4] 정보 출처: https://www.youtube.com/watch?v=y1VVvnzQIx4
+[4] 조이빅픽쳐스. (2021. 7. 29). 영화 수입 배급, 그게 뭔데?. https://www.youtube.com/watch?v=b3tjkUeAVa8
 
-[5] 정보 출처: https://www.youtube.com/watch?v=rFADkXWicBE
+[5] 투애니 100주년기념교회 20대청년. (2020. 12. 31). 영화배급사 해외세일즈 담당자에게 2020년이란? l 코로나기간 해외세일즈, 배급사에 오기까지, 나의꿈-다큐멘터리 [투애니가 묻다] EP.3. https://www.youtube.com/watch?v=rFADkXWicBE
 
-[6] 정보 출처: https://www.youtube.com/watch?v=D6_hBNgEyeE
+[6] 이동진의 파이아키아. (2021. 11. 5). 영화평론가와 영화수입사 대표가 만났는데.... https://www.youtube.com/watch?v=D6_hBNgEyeE
 
 [7] 정보 출처: https://brunch.co.kr/@campuscine21/72
