@@ -20,7 +20,7 @@
 ## 목차
 
 <details>
-    <summary>보기</summary>
+    <summary></summary>
 
 1. [개요](#1-개요)
 
