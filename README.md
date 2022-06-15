@@ -782,7 +782,7 @@
 
 </br>
 
-||movieNm|runTm|nation|genre|director|actor|is_adult|distributor|view_cat|xgb_pred_1|gb_pred_2|
+||movieNm|runTm|nation|genre|director|actor|is_adult|distributor|view_cat|xgb_pred_1|gb_pred_1|xgb_pred_2|gb_pred_2|
 |-|------|-----|------|-----|--------|-----|--------|-----------|--------|--------|-------|------|-----|
 |1|존 윅4|120|2|2|채드 스타헬스키|키아누 리브스|1|롯데엔터테인먼트|3|3|3|3|3|
 |2|토르: 러브 앤 썬더|133|2|2|타이카 와이티티|크리스 헴스워스|0|월트디즈니컴퍼니코리아 유한책임회사|7|6|6|6|6|
@@ -796,8 +796,6 @@
 |10|노프|110|2|8|조던 필|다니엘 칼루야|0|유니버셜픽쳐스인터내셔널 코리아(유)|7|5|5|5|5|
 
 </br>
-
-
 
 ## 참고
 [1] Seonghyeon Jeona, Young Sook Sona(2016). Prediction of box office using data mining. The Korean Journal of Applied Statistics (2016), 29(7), 1257–1270.
